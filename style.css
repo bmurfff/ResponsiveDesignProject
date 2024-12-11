@@ -221,6 +221,76 @@
 
 
 
+//Player Cards
+
+
+/* === Player Cards Styling === */
+
+/* Section Background */
+#players {
+    background-color: #FFFFFF; /* White background for the section */
+    padding: 40px 20px; /* Adds spacing around the section */
+    border-radius: 8px; /* Optional: gives the section a slightly rounded edge */
+}
+
+/* Card Styling */
+#players .card {
+    background-color: #FFD700; /* Gold color for the cards */
+    color: #280353; /* Purple text */
+    height: 350px; /* Consistent card height */
+    display: flex;
+    flex-direction: column;
+    border: none; /* Removes the default border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a slight shadow for depth */
+    border-radius: 10px; /* Smooth rounded corners */
+    overflow: hidden; /* Ensures no content spills outside the card */
+}
+
+/* Card Image */
+#players .card-img-top {
+    object-fit: cover; /* Ensures the images fill the space */
+    height: 200px; /* Image height consistent across cards */
+    border-bottom: 4px solid #280353; /* Adds a purple border between image and body */
+}
+
+/* Card Body */
+#players .card-body {
+    flex-grow: 1; /* Ensures content fills the space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures equal spacing for text */
+}
+
+/* Card Title */
+#players .card-title {
+    font-size: 1.2rem; /* Slightly larger font for emphasis */
+    font-weight: bold;
+    text-align: center;
+    color: #280353; /* Purple color */
+}
+
+/* Card Text */
+#players .card-text {
+    font-size: 1rem;
+    color: #280353; /* Purple color for the text */
+    text-align: center; /* Centers the text */
+}
+
+/* Column Layout */
+#players .col-md-3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adds spacing between rows */
+}
+
+/* Optional: Hover Effect for Cards */
+#players .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+
 
 
 
