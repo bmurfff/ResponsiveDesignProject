@@ -90,7 +90,6 @@
     width: 100%; /* Makes sure image takes up full width of container */
     height: auto; /* Maintains aspect ratio */
 }
-
 .moment-container .overlay {
     position: absolute;
     top: 0;
@@ -112,34 +111,8 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
-    font-size: 1.5rem; /* Default font size */
+    font-size: 1.1rem; 
 }
-
-/* Responsive font size using media queries */
-@media (max-width: 1200px) {
-    .moment-container .overlay {
-        font-size: 1.4rem;
-    }
-}
-
-@media (max-width: 992px) {
-    .moment-container .overlay {
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .moment-container .overlay {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 576px) {
-    .moment-container .overlay {
-        font-size: 0.9rem;
-    }
-}
-
 
 .moment-container:hover .overlay {
     opacity: 1; /* Show overlay on hover */
@@ -157,7 +130,6 @@
 
 
 
-/* Recent Stats Section */
 /* Recent Stats Section */
 #recent-stats {
     background-color: #280353; /* Ravens Purple background */
