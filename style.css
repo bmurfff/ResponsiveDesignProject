@@ -132,6 +132,7 @@
 
 
 /* Recent Stats Section */
+/* Recent Stats Section */
 #recent-stats {
     background-color: #280353; /* Ravens Purple background */
     padding: 3rem 1rem;
@@ -140,7 +141,7 @@
 #recent-stats h2 {
     font-family: 'Raven Bold', sans-serif; /* Matches your header font */
     font-size: 2.5rem;
-    color: #FFD700; /* Gold text for contrast */
+    color: white; /* Changed text to white */
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2rem;
@@ -158,7 +159,7 @@
 #recent-stats p {
     font-size: 1rem;
     font-weight: bold;
-    color: #FFD700; /* Gold text for better contrast on purple */
+    color: white; /* Changed text to white */
 }
 
 /* Team Stats Boxes */
