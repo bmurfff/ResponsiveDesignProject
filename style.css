@@ -1,0 +1,43 @@
+/* Navbar */
+.navbar {
+    background-color: #280353; /* Ravens Purple */
+}
+
+.navbar .nav-link {
+    color: #FFD700; /* Gold */
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #FFFACD; /* Lighter Gold */
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #280353; /* Ravens Purple */
+    color: #FFD700; /* Gold */
+}
+
+footer h5 {
+    color: #FFD700; /* Gold */
+}
+
+footer p {
+    color: #FFD700; /* Gold */
+}
+
+footer .btn {
+    background-color: #FFD700; /* Gold */
+    color: #000; /* Black text */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer .btn:hover {
+    background-color: #FFFACD; /* Lighter Gold */
+    color: #280353; /* Ravens Purple text */
+}
