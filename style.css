@@ -23,7 +23,11 @@
 
 
 
+
+
+
 /*  Slideshow Styling */
+
 .carousel-overlay {
     position: absolute;
     top: 0;
@@ -99,6 +103,133 @@
 .moment-container:hover .overlay {
     opacity: 1;
 }
+
+
+
+
+
+
+
+
+/* Recent Stats Section */
+#recent-stats {
+    background-color: #FFD700; /* Gold background */
+    padding: 3rem 1rem;
+}
+
+#recent-stats h2 {
+    font-family: 'Raven Bold', sans-serif; /* Matches your header font */
+    font-size: 2.5rem;
+    color: #280353; /* Ravens Purple */
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#recent-stats img {
+    max-width: 80px; /* Icon size */
+    height: auto;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    border-radius: 50%; /* Circular icons */
+}
+
+#recent-stats p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #280353; /* Ravens Purple */
+}
+
+/* Team Stats Boxes */
+.losses, .wins {
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.losses {
+    background-color: red; /* Losses in red */
+    color: white;
+}
+
+.wins {
+    background-color: green; /* Wins in green */
+    color: white;
+}
+
+.losses h5, .wins h5 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.losses p, .wins p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Key Achievement Box */
+.key-achievement {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white box */
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.key-achievement h4 {
+    font-family: 'Raven Bold', sans-serif;
+    color: #280353; /* Ravens Purple */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.key-achievement p {
+    font-size: 1rem;
+    color: #280353; /* Ravens Purple */
+}
+
+.key-achievement .achievement-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    top: 20px;
+    border: 2px solid #280353; /* Purple border */
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    #recent-stats img {
+        max-width: 60px; /* Smaller icons */
+    }
+    .key-achievement .achievement-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
