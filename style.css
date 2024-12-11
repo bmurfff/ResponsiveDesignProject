@@ -107,13 +107,39 @@
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
-    font-size: clamp(0.8rem, 2vw, 1.5rem); /* Responsive font size */
     line-height: 1.4;
     max-width: 100%; /* Ensure overlay width is within the image */
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
+    font-size: 1.5rem; /* Default font size */
 }
+
+/* Responsive font size using media queries */
+@media (max-width: 1200px) {
+    .moment-container .overlay {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .moment-container .overlay {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .moment-container .overlay {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .moment-container .overlay {
+        font-size: 0.9rem;
+    }
+}
+
 
 .moment-container:hover .overlay {
     opacity: 1; /* Show overlay on hover */
