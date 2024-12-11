@@ -98,6 +98,13 @@
     transition: opacity 0.3s ease;
     text-align: center;
     padding: 10px;
+    box-sizing: border-box;
+    font-size: clamp(0.8rem, 2vw, 1.5rem); /* Adjust size dynamically */
+    line-height: 1.4; /* Improve readability */
+    max-width: 90%; /* Keep text within a safe width */
+    overflow-wrap: break-word; /* Prevent text overflow */
+    word-wrap: break-word; /* Compatibility */
+    word-break: break-word; /* Break long words */
 }
 
 .moment-container:hover .overlay {
