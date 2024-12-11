@@ -120,18 +120,18 @@
 
 /* Recent Stats Section */
 #recent-stats {
-    background-color: #FFD700; /* Gold background */
+    background-color: #280353; /* Ravens Purple background */
     padding: 3rem 1rem;
 }
 
 #recent-stats h2 {
     font-family: 'Raven Bold', sans-serif; /* Matches your header font */
     font-size: 2.5rem;
-    color: #280353; /* Ravens Purple */
+    color: #FFD700; /* Gold text for contrast */
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Ensure text stands out */
 }
 
 #recent-stats img {
@@ -145,7 +145,7 @@
 #recent-stats p {
     font-size: 1rem;
     font-weight: bold;
-    color: #280353; /* Ravens Purple */
+    color: #FFD700; /* Gold text for better contrast on purple */
 }
 
 /* Team Stats Boxes */
@@ -228,76 +228,70 @@
 
 
 
-
-
-
 /* === Player Cards Styling === */
 
-/* Section Background */
 #players {
-    background-color: #FFFFFF; /* White background for the section */
-    padding: 40px 20px; /* Adds spacing around the section */
-    border-radius: 8px; /* Optional: gives the section a slightly rounded edge */
+    background-color: #FFFFFF;
+    padding: 40px 20px;
+    border-radius: 8px;
 }
 
-/* Card Styling */
 #players .card {
-    background-color: #280353; /*  Purple color for the cards */
-    color: #FFD700; /* Gold text */
-    height: 350px; /* Consistent card height */
+    background-color: #FFD700;
+    color: #280353;
+    height: 350px;
     display: flex;
     flex-direction: column;
-    border: none; /* Removes the default border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a slight shadow for depth */
-    border-radius: 10px; /* Smooth rounded corners */
-    overflow: hidden; /* Ensures no content spills outside the card */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-/* Card Image */
 #players .card-img-top {
-    object-fit: cover; /* Ensures the images fill the space */
-    height: 200px; /* Image height consistent across cards */
-    border-bottom: 4px solid #280353; /* Adds a purple border between image and body */
+    object-fit: cover;
+    height: 200px;
+    border-bottom: 4px solid #280353;
 }
 
-/* Card Body */
 #players .card-body {
-    flex-grow: 1; /* Ensures content fills the space */
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensures equal spacing for text */
+    justify-content: space-between;
+    padding: 20px;
 }
 
-/* Card Title */
 #players .card-title {
-    font-size: 1.2rem; /* Slightly larger font for emphasis */
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
-    color: #280353; /* Purple color */
+    color: #280353;
+    flex-grow: 1;
+    margin: 0;
 }
 
-/* Card Text */
 #players .card-text {
-    font-size: 1rem;
-    color: #280353; /* Purple color for the text */
-    text-align: center; /* Centers the text */
+    font-size: 1.2rem;
+    color: #280353;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Column Layout */
 #players .col-md-3 {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px; /* Adds spacing between rows */
+    margin-bottom: 20px;
 }
 
-/* Optional: Hover Effect for Cards */
 #players .card:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
+    transform: translateY(-5px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
-
-
 
 
 
