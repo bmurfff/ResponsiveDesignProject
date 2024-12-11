@@ -242,8 +242,8 @@
 
 /* Card Styling */
 #players .card {
-    background-color: #FFD700; /* Gold color for the cards */
-    color: #280353; /* Purple text */
+    background-color: #280353; /*  Purple color for the cards */
+    color: #FFD700; /* Gold text */
     height: 350px; /* Consistent card height */
     display: flex;
     flex-direction: column;
