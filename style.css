@@ -96,12 +96,12 @@
     padding: 10px;
 }
 
-.moment-container:hover .overlay {
-    opacity: 1;
+.moment-container .overlay p {
+    font-size: 0.9rem; /* Adjust to desired size, smaller than the default */
+    line-height: 1.4; /* Improve text readability */
+    margin: 0;
+    padding: 5px;
 }
-
-
-
 
 
 
