@@ -3,6 +3,7 @@
 /* Navbar */
 .navbar {
     background-color: #280353; /* Ravens Purple */
+    border-bottom: 2px solid #FFD700; /* Gold border under the navbar */
 }
 
 .navbar .nav-link {
@@ -19,6 +20,13 @@
     height: 40px;
 }
 
+/* Gold Line Styles */
+.gold-line {
+    background-color: #FFD700; /* Gold color */
+    height: 4px; /* Height of the line */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove any extra margin */
+}
 
 
 
